@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_margin="18dp"
+        android:gravity="center"
+        android:id="@+id/tv_quarantine_place" />
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    app:cardCornerRadius="75dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:hint="N/A"
+        android:textColor="#FF0000"
+        android:id="@+id/count"
+        android:textAlignment="center"
+        android:textSize="75sp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+         />
+</androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_margin="18dp"
+        android:textColor="#2ecc71"
+        android:text="Stay Home, Stay Safe"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="28sp"
+        android:gravity="center"
+
+        android:background="@drawable/ic_mask"
+        />
+
+
+</LinearLayout>
